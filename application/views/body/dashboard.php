@@ -1,5 +1,12 @@
-<div class="header text-center py-5">
-    <h3>Aplikasi Edukasi Identifikasi</h3> 
+<div class="header text-center">
+    <h3 class="p-5">Aplikasi Edukasi Identifikasi</h3>
+    <div class="bodyhead"> </div>
 </div>
 
-<a type="button" href="<?= site_url('Welcome/v2')?>" class="btn btn-light">Mteri Pembelajaran</a>
+
+
+<div class="d-grid gap-2 m-3">
+  <a href="<?= site_url('Welcome/materi_pembelajaran')?>" class="btn btn-light rounded-pill mb-2" type="button">Materi Pembelajaran</a>
+  <a href="<?= site_url('Welcome/')?>" class="btn btn-light rounded-pill mb-2" type="button">Lapor Hoax</a>
+  <a href="<?= site_url('Welcome/')?>" class="btn btn-light rounded-pill mb-2" type="button">Keluar</a>
+</div>

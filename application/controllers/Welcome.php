@@ -25,10 +25,45 @@ class Welcome extends CI_Controller {
 		$this->load->view('footer');
 	}
 
-	public function v2()
+	public function materi_pembelajaran()
 	{
 		$this->load->view('header');
-		$this->load->view('body/v2');
+		$this->load->view('body/materi_pembelajaran');
+		$this->load->view('footer');
+	}
+
+	public function cara_mengenali_hoaks()
+	{
+		$this->load->view('header');
+		$this->load->view('body/cara_mengenali_hoaks');
+		$this->load->view('footer');
+	}
+
+	public function identifikasi_judul()
+	{
+		$this->load->view('header');
+		$this->load->view('body/identifikasi_judul');
+		$this->load->view('footer');
+	}
+
+	public function identifikasi_situs_berita()
+	{
+		$this->load->view('header');
+		$this->load->view('body/identifikasi_situs_berita');
+		$this->load->view('footer');
+	}
+
+	public function identifikasi_konten()
+	{
+		$this->load->view('header');
+		$this->load->view('body/identifikasi_konten');
+		$this->load->view('footer');
+	}
+
+	public function identifikasi_sumber_berita()
+	{
+		$this->load->view('header');
+		$this->load->view('body/identifikasi_sumber_berita');
 		$this->load->view('footer');
 	}
 
