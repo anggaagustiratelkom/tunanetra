@@ -78,7 +78,11 @@ $db['default'] = array(
 	'hostname' => 'localhost',
 	'username' => '',
 	'password' => '',
+<<<<<<< HEAD
 	'database' => '',
+=======
+	'database' => 'tunanetra',
+>>>>>>> 9af115378451770f32a0e53fe354a4a1778ce420
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
