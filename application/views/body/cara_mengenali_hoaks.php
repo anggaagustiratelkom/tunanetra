@@ -5,7 +5,6 @@
 
 <video id="myVideo" width="320" height="176" class="d-none">
   <source src="<?= base_url()?>indopride/mengenali_hoks.mp4" type="video/mp4">
-  Your browser does not support HTML5 video.
 </video>
 
 <div class="d-grid gap-2 m-3">
