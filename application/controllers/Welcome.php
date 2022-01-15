@@ -67,4 +67,18 @@ class Welcome extends CI_Controller {
 		$this->load->view('footer');
 	}
 
+	public function laporan_hoax()
+	{
+		$this->load->view('header');
+		$this->load->view('body/laporan_hoax');
+		$this->load->view('footer');
+	}
+
+	public function status_laporan()
+	{
+		$this->load->view('header');
+		$this->load->view('body/status_laporan');
+		$this->load->view('footer');
+	}
+
 }
