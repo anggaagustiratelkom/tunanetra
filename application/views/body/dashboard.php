@@ -1,1 +1,1 @@
-masok
+<a type="button" href="<?= base_url('Welcome/v2/')?>" class="btn btn-primary">Primary</a>
